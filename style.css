@@ -69,7 +69,7 @@ a {
   color: #e5e7eb;
 }
 
-.body {
+.body-container1 {
   padding: 0px 300px;
 }
 
@@ -77,5 +77,47 @@ a {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  margin: 50px 0px;
+  margin: 100px;
+}
+
+.card-container-full {
+  display: flex;
+  gap: 30px;
+}
+
+.card-image {
+  border: 10px solid rgb(168, 145, 11); /* Kék keret – Google kék színe */
+  border-radius: 12px; /* Lekerekített sarkok */
+}
+
+img {
+  display: block;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.background-quote-container {
+  background-color: #e5e7eb;
+  padding: 100px 0px;
+}
+
+.quote,
+.quote-author {
+  padding: 0px 400px;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 900;
 }
