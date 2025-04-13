@@ -97,7 +97,7 @@ img {
   display: block;
 }
 
-.card-text {
+.card-text-under {
   text-align: center;
   margin-top: 15px;
   max-width: 500px;
@@ -106,12 +106,19 @@ img {
   font-size: 20px;
 }
 
+.card-text-upper {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 .card-container-full-half1 {
   margin-bottom: 75px;
 }
 .quote {
   font-size: 36px;
-  font-style: light italic;
+  font-style: italic;
   color: #1f2937;
 }
 
@@ -129,4 +136,60 @@ img {
   text-align: end;
   font-size: 24px;
   font-weight: 900;
+  margin-top: 30px;
+}
+
+.after-quote {
+  padding: 0px 400px;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ad-text1 {
+  font-size: 30px;
+}
+
+.ad-text2 {
+  font-size: 14px;
+}
+
+.ad-texts,
+.ad-button {
+  color: white;
+}
+
+.ad {
+  background-color: #3882f6;
+  padding: 40px 100px;
+  border-radius: 8px;
+  margin-right: 150px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  margin: 100px 0px;
+  margin-right: 100px;
+  width: 700px;
+}
+
+.ad-button {
+  cursor: pointer;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  padding: 40px 0px;
 }

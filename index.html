@@ -31,7 +31,8 @@
               wanna tell you I know how to beatbox, with a little bit of
               pttpttptptptpnnnnn yeee pnttpttpnnptnpnpnnnnn
             </div>
-            <div class="header-button">Beatbox</div>
+            <div class="header-button" onclick="playBeatbox()">Beatbox</div>
+            <audio id="obamaBeatbox" src="MEDIA/Obama-beatbox.mp3"></audio>
           </div>
           <div class="header-image">
             <iframe
@@ -51,18 +52,19 @@
     <div class="body">
       <div class="body-container1">
         <div class="body-title">
-          Most people know Barack Obama as the greatest beatboxer in the world,
-          but many people don't know that his talent is not just a blessing, but
-          a curse aswell.<br />This is the story of rise and downfall of the
-          greatest beatboxer in history.
+          Most people know Barack Obama as the greatest president in the world,
+          but many people don't know that he is also the greatest beatboxer of
+          all time.<br />This is the story of rise and downfall of the greatest
+          beatboxer in history.
         </div>
         <div class="card-container-full">
           <div class="card-container-full-half1">
             <div class="card-container">
+              <div class="card-text-upper">First championship</div>
               <div class="card-image">
                 <img src="MEDIA/Obama-cards/obama-card3.png" width="500" />
               </div>
-              <div class="card-text">
+              <div class="card-text-under">
                 Obama's first championship victory was full of joy, happiness
                 shines through in the one time world champion's facial
                 expression. What people did not know at the time, that this
@@ -71,10 +73,11 @@
               </div>
             </div>
             <div class="card-container">
+              <div class="card-text-upper">Second championship</div>
               <div class="card-image">
                 <img src="MEDIA/Obama-cards/obama-card2.jpeg" width="500" />
               </div>
-              <div class="card-text">
+              <div class="card-text-under">
                 His second victory did not differ much from the first. He
                 received the award with a happy face, knowing that all his hard
                 work payed off again.
@@ -83,10 +86,11 @@
           </div>
           <div class="card-container-full-half2">
             <div class="card-container">
+              <div class="card-text-upper">Third championship</div>
               <div class="card-image">
                 <img src="MEDIA/Obama-cards/obama-card1.png" width="500" />
               </div>
-              <div class="card-text">
+              <div class="card-text-under">
                 For the first time in history, Barack Obama has become the first
                 person to ever three-peat in the beatbox world championship. He
                 should feel amazing right? - at least that is what most people
@@ -96,10 +100,11 @@
               </div>
             </div>
             <div class="card-container">
+              <div class="card-text-upper">Fourth championship</div>
               <div class="card-image">
                 <img src="MEDIA/Obama-cards/obama-card4.jpeg" width="500" />
               </div>
-              <div class="card-text">
+              <div class="card-text-under">
                 Not to anyone's surprise, one year later, Obama has won his
                 fourth title. Fans were still happy, cheering for him, but he
                 looked like a totally different person now. His face was cold,
@@ -134,14 +139,30 @@
           </div>
         </div>
       </div>
-      <div class="advertisement">
-        <div class="ad-text">Call to action! It's time!</div>
-        <div class="ad-text2">
-          Sign up for our product by clicking that button right over there!
+      <div class="after-quote">
+        This was Barack Obama's last interview. After winning his fourth
+        championship, Obama officially retired due to loss of motivation, and
+        disappeared from social media. Little did people know, that a few years
+        later, he would become the president of The United States.
+      </div>
+      <div class="ad-container">
+        <div class="ad">
+          <div class="ad-texts">
+            <div class="ad-text1">Call to action! It's time!</div>
+            <div class="ad-text2">
+              Sign up for our product by clicking that button right over there!
+            </div>
+          </div>
+          <div class="ad-button">Sign up</div>
         </div>
-        <div class="ad-button">Sign up</div>
       </div>
     </div>
     <div class="footer">Copyright © The Odin Project 2021</div>
+    <script>
+      function playBeatbox() {
+        const audio = document.getElementById("obamaBeatbox");
+        audio.play();
+      }
+    </script>
   </body>
 </html>
