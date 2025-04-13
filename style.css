@@ -73,16 +73,19 @@ a {
   padding: 0px 300px;
 }
 
-.body-title {
+.body-title,
+.under-cards-big-text {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
   margin: 100px;
 }
 
-.card-container-full {
+.card-container-full-half1,
+.card-container-full-half2 {
   display: flex;
-  gap: 30px;
+  gap: 100px;
+  justify-content: center;
 }
 
 .card-image {
@@ -97,9 +100,15 @@ img {
 .card-text {
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 100px;
+  max-width: 500px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 20px;
 }
 
+.card-container-full-half1 {
+  margin-bottom: 75px;
+}
 .quote {
   font-size: 36px;
   font-style: light italic;
