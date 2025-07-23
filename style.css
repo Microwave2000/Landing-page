@@ -89,8 +89,8 @@ a {
 }
 
 .card-image {
-  border: 10px solid rgb(168, 145, 11); /* Kék keret – Google kék színe */
-  border-radius: 12px; /* Lekerekített sarkok */
+  border: 10px solid rgb(168, 145, 11);
+  border-radius: 12px;
 }
 
 img {
